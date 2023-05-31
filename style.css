@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(95, 87, 87);
+    font-size: 17px;
+    line-height: 1.8;
+    margin: 200px 20px 200px 20px;
+}
+.container{
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+}
+ul{
+    list-style-image: url(file:///C:/Users/soft/Desktop/project/icon-success.svg);
+}
+li{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+label{
+    margin-bottom: 50px;
+
+}
+input{
+    padding: 20px 30px;
+    font-family: inherit;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-top: 10px;
+}
+button{
+    font-family: inherit;
+    margin-top: 20px;
+    padding:20px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(235, 18%, 26%);
+}
+h1{
+    font-size: 40px;
+}
+.hide{
+    display: none;
+}
+.card{
+    background-color: white;
+    width: 400px;
+    height: 270px;
+    padding: 7px;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-left: 550px;
+    border-radius: 15px;
+}
+.card h2{
+    font-size: 37px;
+}
+.icon-card{
+    width: 50px;
+}
+.card button{
+    width: 90%;
+    margin-left: 15px;
+}
